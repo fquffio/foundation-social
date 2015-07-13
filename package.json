@@ -1,7 +1,7 @@
 {
   "name": "foundation-social",
   "version": "4.9.1",
-  "main": "foundation-social.css",
+  "main": "sass/foundation-social.scss",
   "repository": {
     "type": "git",
     "url": "https://github.com/fquffio/foundation-social.git"

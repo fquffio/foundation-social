@@ -1,6 +1,6 @@
 {
   "name": "foundation-social",
-  "main": "foundation-social.css",
+  "main": "sass/foundation-social.scss",
   "license": "MIT",
   "ignore": [
     "assets",
