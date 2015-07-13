@@ -1,14 +1,14 @@
 {
-  "name": "bootstrap-social",
+  "name": "foundation-social",
   "version": "4.9.1",
-  "main": "bootstrap-social.css",
+  "main": "foundation-social.css",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lipis/bootstrap-social.git"
+    "url": "https://github.com/fquffio/foundation-social.git"
   },
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "~3",
+    "foundation": "~5.5",
     "font-awesome": "~4.3"
   }
 }

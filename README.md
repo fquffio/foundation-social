@@ -1,59 +1,51 @@
-Social Buttons for Bootstrap
-============================
+Social Buttons for Foundation
+=============================
 
 Social Buttons made in pure CSS based on
-[Bootstrap](http://twbs.github.io/bootstrap/) and
-[Font Awesome](http://fortawesome.github.io/Font-Awesome/)!
-
-[Check the live demo!](http://lipis.github.io/bootstrap-social)
+[Bootstrap Social](https://github.com/lipis/bootstrap-social/) ported to
+[Foundation](https://github.com/zurb/foundation/)!
 
 Installation
 ------------
 
-Include the `bootstrap-social.css` or `bootstrap-social.less` in your project, or
+Include the `foundation-social.css` or `foundation-social.scss` in your project, or
 install it through [Bower](http://bower.io/):
 
-    bower install bootstrap-social
+    bower install foundation-social
 
 Available classes
 -----------------
- - `btn-adn`
- - `btn-bitbucket`
- - `btn-dropbox`
- - `btn-facebook`
- - `btn-flickr`
- - `btn-foursquare`
- - `btn-github`
- - `btn-google`
- - `btn-instagram`
- - `btn-linkedin`
- - `btn-microsoft`
- - `btn-openid`
- - `btn-pinterest`
- - `btn-reddit`
- - `btn-soundcloud`
- - `btn-tumblr`
- - `btn-twitter`
- - `btn-vimeo`
- - `btn-vk`
- - `btn-yahoo`
+ - `.button.social.adn`
+ - `.button.social.bitbucket`
+ - `.button.social.dropbox`
+ - `.button.social.facebook`
+ - `.button.social.flickr`
+ - `.button.social.foursquare`
+ - `.button.social.github`
+ - `.button.social.google`
+ - `.button.social.instagram`
+ - `.button.social.linkedin`
+ - `.button.social.microsoft`
+ - `.button.social.openid`
+ - `.button.social.pinterest`
+ - `.button.social.reddit`
+ - `.button.social.soundcloud`
+ - `.button.social.tumblr`
+ - `.button.social.twitter`
+ - `.button.social.vimeo`
+ - `.button.social.vk`
+ - `.button.social.yahoo`
 
 Examples
 --------
 
 ```html
-<a class="btn btn-block btn-social btn-twitter">
+<a class="button social twitter">
   <i class="fa fa-twitter"></i>
   Sign in with Twitter
 </a>
 
-<a class="btn btn-social-icon btn-twitter">
+<a class="button social-icon twitter">
   <i class="fa fa-twitter"></i>
 </a>
 ```
-
-Pull Requests
--------------
-If you are about to create a new **Pull Request** for adding a new button or
-fixing something, don't update the minified `bootstrap-social.css` file. It
-will be generated automatically after a successful merge.
